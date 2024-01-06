@@ -108,6 +108,24 @@ function sort_array()
 sort_array()
 
 //Q.13 
+function target_position()
+{
+    var array=[5,7,7,8,8,10]
+    var target=11
+    var position=[]
+    for(var i=0;i<array.length;i++)
+    {
+        if(array[i]==target)
+        {
+            position.push(i)
+        }
+        else{
+            position=[-1,-1]
+        }
+    }
+    console.log(position)
+}
 
+target_position()
 
     
